@@ -1,0 +1,16 @@
+[
+{
+  "modid": "wynn-meow",
+  "name": "Wynn Meow",
+  "description": "mod for replying to shouts with meow",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Geekazodium aka GeekaTheCatgirl"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

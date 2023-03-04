@@ -16,3 +16,27 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+changelog.txt
+CREDITS.txt
