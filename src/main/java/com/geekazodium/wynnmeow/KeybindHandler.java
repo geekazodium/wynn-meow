@@ -33,6 +33,7 @@ public class KeybindHandler {
                 }
                 if (mode == TOGGLE){
                     toggled = !toggled;
+                    CommandEventHandler.toggleMessage(toggled);
                 }
             }
         }

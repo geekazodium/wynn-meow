@@ -102,4 +102,12 @@ public class CommandEventHandler {
                         .setStyle(new Style().setColor(TextFormatting.YELLOW))
         );
     }
+
+    public static void toggleMessage(boolean toggled) {
+        Minecraft.getMinecraft().ingameGUI.getChatGUI().printChatMessage(
+                new TextComponentString("wynnmeow toggle is "+(toggled?"on":"off"))
+                        .setStyle(new Style().setColor(TextFormatting.YELLOW))
+        );
+    }
+
 }
